@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.3590" tests="12" failures="12">
+  <testsuite name="Root Suite" timestamp="2023-04-19T18:01:19" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="JWT Auth APIs" timestamp="2023-04-19T18:01:19" tests="0" file="/Users/dhroovgupta/Projects/Hackerrank/1490779-jwt-auth/test/index.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Tests for Create JWT" timestamp="2023-04-19T18:01:19" tests="9" file="/Users/dhroovgupta/Projects/Hackerrank/1490779-jwt-auth/test/index.spec.js" time="0.1470" failures="9">
+    <testcase name="JWT Auth APIs Tests for Create JWT #1 - should return JWT for the user Brady" time="0.0660" classname="#1 - should return JWT for the user Brady">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at Context.<anonymous> (test/index.spec.js:33:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #2 - should save JWT of the user in users table" time="0.0030" classname="#2 - should save JWT of the user in users table">
+      <failure message="expected null to equal undefined" type="AssertionError"><![CDATA[AssertionError: expected null to equal undefined
+    at Context.<anonymous> (test/index.spec.js:41:34)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #3 - should return new JWT after login API again" time="0.0080" classname="#3 - should return new JWT after login API again">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at Context.<anonymous> (test/index.spec.js:55:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #4 - should return 401 in case of incorrect username" time="0.0070" classname="#4 - should return 401 in case of incorrect username">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:67:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #5 - should return 401 in case of incorrect password" time="0.0050" classname="#5 - should return 401 in case of incorrect password">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:78:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #6 - should return 401 in case of empty username" time="0.0090" classname="#6 - should return 401 in case of empty username">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:89:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #7 - should return 401 in case of empty password" time="0.0060" classname="#7 - should return 401 in case of empty password">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:100:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #8 - should return 401 in case of username not present" time="0.0050" classname="#8 - should return 401 in case of username not present">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:110:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Create JWT #9 - should return 401 in case of password not present" time="0.0050" classname="#9 - should return 401 in case of password not present">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:120:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests for Validate JWT" timestamp="2023-04-19T18:01:19" tests="3" file="/Users/dhroovgupta/Projects/Hackerrank/1490779-jwt-auth/test/index.spec.js" time="0.0200" failures="3">
+    <testcase name="JWT Auth APIs Tests for Validate JWT #1 - should return username of Brady from the JWT" time="0.0060" classname="#1 - should return username of Brady from the JWT">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at Context.<anonymous> (test/index.spec.js:133:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Validate JWT #2 - should send 401 in case of old JWT" time="0.0040" classname="#2 - should send 401 in case of old JWT">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:145:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="JWT Auth APIs Tests for Validate JWT #3 - should return 401 in case of invalid JWT" time="0.0050" classname="#3 - should return 401 in case of invalid JWT">
+      <failure message="expected 404 to equal 401" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 401
+    at Context.<anonymous> (test/index.spec.js:156:37)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
